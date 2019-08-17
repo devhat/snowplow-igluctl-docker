@@ -10,5 +10,4 @@ ADD ${IGLUCTL_URL} /tmp/igluctl.zip
 
 RUN unzip /tmp/igluctl.zip -d /usr/local/bin/
 
-ENTRYPOINT [ "igluctl" ]
-CMD [ "--help" ]
+CMD ["/usr/local/bin/gluctl", "--help"]
