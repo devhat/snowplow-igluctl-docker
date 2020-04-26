@@ -2,7 +2,7 @@ FROM alpine:latest
 
 LABEL maintainer="Devhat Consultoria em Tecnologia <devhat@devhat.com.br>"
 
-ARG IGLUCTL_URL=http://dl.bintray.com/snowplow/snowplow-generic/igluctl_0.7.1.zip
+ARG IGLUCTL_URL=http://dl.bintray.com/snowplow/snowplow-generic/igluctl_0.7.2_rc1.zip
 
 RUN apk add -U openjdk9-jdk
 
